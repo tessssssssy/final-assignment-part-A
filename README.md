@@ -1,5 +1,5 @@
 ## Purpose
----
+
 Hidden Gems is an application for mapping and exploring interesting places. It aims to create an interactive, easy to use database of interesting, unique and free places to explore, which are created by the users. Places could include historical landmarks, photography locations, street art, natural wonders or any place of interest that is free and publicly accessible.
 
 Hidden Gems is different from other travel/activity finder apps is that it is purely focused on showing free, outdoor places of interest rather than commercial establishments, and tourist attractions, and it aims to utilise the knowledge of users to uncover lesser known unique and interesting places.
@@ -7,7 +7,7 @@ Hidden Gems is different from other travel/activity finder apps is that it is pu
 We are aiming to serve a community of people who are looking to explore, travel and share their favorite places with anyone who wants to discover them.
 
 ## Functionality / Features
----
+
 User Authentication
 
 Interactive Map
@@ -36,7 +36,7 @@ Rating
 - Users can rate a location
 
 ## Target audience
----
+
 Due to the flexibility in terms of the types of locations that can be added to the application, this app will serve many different users with many different interests.
 
 There is the potential to evolve with the users who upload locations and interact with the app, as popular locations are prioritised in search results and different categories can be added to meet user demand.
@@ -53,7 +53,7 @@ This could include artists, arts and architecture enthusiasts who want to explor
 Photographers can use the app to find locations that are good for photography, while utilising the locations image gallery to get an idea of the types of photos that can be taken
 
 ## Tech stack
----
+
 - Ruby on Rails
 - React
 - Postgresql
@@ -61,7 +61,7 @@ Photographers can use the app to find locations that are good for photography, w
 - Git/Github
 
 ## User Stories
----
+
 ***Meghan is a photography student who is completing a project on architectural photography.***
 
 As a user, she will need to be able to sign up and log in to the site so that she can save and view locations later. 
@@ -91,19 +91,19 @@ She has noticed that sometimes people add locations that are spam, advertisement
 I initially was going to have one user story for each target audience, but then I realised this alone did not cover all the features of the application. I made sure to include user stories that referred to features such as adding a location and uploading photos to a location and then later added the admin user to explain cases where locations might need to be deleted.
 
 ## Dataflow Diagram
----
+
 ![Dataflow Diagram](./docs/dataflow-diagram.png)
 
 ## Application Architecture Diagram
----
+
 
 ![Application Architecture Diagram](./docs/application-architecture-diagram.png)
 
 ## Wireframes
----
+
 
 Landing Page
----
+
 
 Desktop
 
@@ -114,7 +114,7 @@ Mobile
 ![Landing Page](./docs/wireframes/landingpage_mobile.png)
 
 Main Page
----
+
 
 Desktop
 
@@ -125,7 +125,7 @@ Mobile
 ![Main Page](./docs/wireframes/landingpage_mobile.png)
 
 Add Location Page
----
+
 
 Desktop
 
@@ -136,7 +136,7 @@ Mobile
 ![Add Location Page](./docs/wireframes/addlocation_mobile.png)
 
 Location Page
----
+
 
 Desktop
 
