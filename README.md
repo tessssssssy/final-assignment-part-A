@@ -148,11 +148,19 @@ Once the form is completed and submitted, it will redirect users to the location
 - Desktop view - prompts an on screen window for recording rating, comments and date etc
 - Mobile view - redirects users to the rating page to record the same information
 
+
 Then, it returns users back to the location page on submission.
+
+![Location Page](./docs/wireframes/locationpage_desktop1.png)
+
+![Location Page](./docs/wireframes/locationpage_desktop2.png)
+
 
 *Desktop*
 ![Location Page](./docs/wireframes/locationpage_desktop1.png)
 ![Location Page](./docs/wireframes/locationpage_desktop2.png)
 
+
 *Mobile*
+
 ![Location Page](./docs/wireframes/locationpage_mobile.png)
