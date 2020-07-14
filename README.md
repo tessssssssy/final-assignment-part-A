@@ -105,8 +105,10 @@ Location Page
 
 Desktop
 
-![Location Page](./docs/wireframes/location_desktop.png)
+![Location Page](./docs/wireframes/locationpage_desktop1.png)
+
+![Location Page](./docs/wireframes/locationpage_desktop2.png)
 
 Mobile
 
-![Location Page](./docs/wireframes/location_mobile.png)
+![Location Page](./docs/wireframes/locationpage_mobile.png)
