@@ -88,7 +88,10 @@ As a contributor, she wants to be able to upload photos to locations on the app,
 
 She has noticed that sometimes people add locations that are spam, advertisements or just irrelevant to the site. She needs to be able to delete these locations so that they don't clog the site and make it harder for users to find what they are looking for. She also needs to be able to delete comments on locations for the same reasons.
 
-I initially was going to have one user story for each target audience, but then I realised this alone did not cover all the features of the application. I made sure to include user stories that referred to features such as adding a location and uploading photos to a location and then later added the admin user to explain cases where locations might need to be deleted.
+>I initially was going to have one user story for each target audience, but then I realised this alone did not cover all the features of the application. I made sure to include user stories that referred to features such as adding a location and uploading photos to a location and then later added the admin user to explain cases where locations might need to be deleted.
+>--- *Tess*
+
+![Whiteboard - User stories](./docs/userstories.png)
 
 ## Dataflow Diagram
 
@@ -101,48 +104,55 @@ I initially was going to have one user story for each target audience, but then 
 
 ## Wireframes
 
+### Landing Page
+**Compress icon** in the search bar initislises using current location in the browser and to generate an address for search.
+**Search bar** Once address is entered, it will prompt user to the **Main page** of the application.
 
-Landing Page
-
-
-Desktop
-
+*Desktop*
 ![Landing Page](./docs/wireframes/landingpage_desktop.png)
 
-Mobile
-
+*Mobile*
 ![Landing Page](./docs/wireframes/landingpage_mobile.png)
 
-Main Page
+### Main Page
+The interfaces of the main page and "dashboard" page are very similar. The only different is that the "dashboard" page will be displaying locations created by the user and saved locations instead of nearby locations.
 
+*Add a location* in navbar create a link for user to get to the **Add location** page.
+**Interactive map with markers** allows users to access the specific **location page** while its link is also integrated with the list on the right side scrollable panel.
+**Hide button** to enhance users' visual experience, filter panel will be minimised on click and the map area will be expanded.
 
-Desktop
+*Desktop*
+![Main Page](./docs/wireframes/mainpage_desktop.png)
 
-![Main Page](./docs/wireframes/landingpage_desktop.png)
+**Toggle button** in the mobile view allows users to switch between the map layout and the list layout of the list of locations.
+**Filter button** is to compensate the lack of space in the mobile view. Filter options are not displayed in mobile view but can be accessed by clicking the filter button.
 
-Mobile
+*Mobile*
+![Main Page](./docs/wireframes/mainpage_mobile.png)
 
-![Main Page](./docs/wireframes/landingpage_mobile.png)
+### Add Location Page (Edit page)
+The layout of the add location page will be shared with edit page.
 
-Add Location Page
+Once the form is completed and submitted, it will redirect users to the location page which they just added/edited.
 
+**Marker in map** in the desktop view can be used for generating address instead of manual input in form.
 
-Desktop
-
+*Desktop*
 ![Add Location Page](./docs/wireframes/addlocation_desktop.png)
 
-Mobile
-
+*Mobile*
 ![Add Location Page](./docs/wireframes/addlocation_mobile.png)
 
-Location Page
+#### Location Page
+**Check-in button**
+- Desktop view - prompts an on screen window for recording rating, comments and date etc
+- Mobile view - redirects users to the rating page to record the same information
 
+Then, it returns users back to the location page on submission.
 
-Desktop
-
+*Desktop*
 ![Location Page](./docs/wireframes/locationpage_desktop1.png)
 ![Location Page](./docs/wireframes/locationpage_desktop2.png)
 
-Mobile
-
+*Mobile*
 ![Location Page](./docs/wireframes/locationpage_mobile.png)
