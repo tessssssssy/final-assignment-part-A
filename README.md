@@ -183,7 +183,11 @@ Project Management
 
 Trello
 
-Trelllo is a project management application used to plan and track the progress of different tasks.
+Trello is a project management application used to plan and track the progress of different tasks. We will be using Trello to manage and track tasks throughout the project.
+
+![Trello Board](./docs/trello/trello3.png)
+
+![Trello Board](./docs/trello/trello4.png)
 
 ![Trello Board](./docs/trello/trello1.png)
 
@@ -191,6 +195,6 @@ Trelllo is a project management application used to plan and track the progress 
 
 Miro
 
-Miro is a digital whiteboard used for planning, brainstorming and idea generation
+Miro is a digital whiteboard used for planning, brainstorming and idea generation. We will use this tool to collaborate on ideas throughout the project. 
 
 ![Miro Board](./docs/trello/miro.png)
